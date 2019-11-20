@@ -19,7 +19,7 @@ In shiny, front-end is what correspond to the UI, back-end to the server.].
 But let's state the truth: no matter how complex and innovative your backend is, your application is bad if your User Experience (UX) is bad. 
 That's the hard truth. 
 If people can't understand how to use your application, your application isn't successful, no matter how incredible the backend is. 
-This natural taste for back-end / server logic can deserve you on the long run: by neglecting the UI, you'll make your application less likely to be adopted among your users. 
+This natural taste for back-end / server logic can hurt you in the long run: by neglecting the UI, you'll make your application less likely to be adopted among your users. 
 Which is a good way to fail your application project.
 
 ## __The Unbearable Lightness of Being__
@@ -29,11 +29,11 @@ Which is a good way to fail your application project.
 > __Colin Chapman CBE, Founder of Lotus Cars__
 
 There are mainly two contexts where you'll be building a web app with R: one for professional use (i.e people will rely on this app to do their job), or for fun (i.e people will just use the app as a distraction). 
-But in both cases, people will want the app to be useable, and __easily__ usable. 
+But in both cases, people will want the app to be usable, and __easily__ usable. 
 
-If people will use your app in a professional context, they don't want to fight with your interface, read complexe manuals, or lose time understanding what is supposed to do what in your application. 
+If people will use your app in a professional context, they don't want to fight with your interface, read complex manuals, or lose time understanding what is supposed to do what in your application. 
 Think about all the professional applications and softwares that you've been ranting about during your professional life. 
-You don't want your app to be one of that. On the other end, if users open your app for fun, they are not going to fight your app into submission: they are just going to give up using your app if it's too complex to be used. 
+You don't want your app to be one of them. On the other hand, if users open your app for fun, they are not going to fight your app into submission: they are just going to give up using your app if it's too complex to be used. 
 
 ### Make a self-explanatory app
 
@@ -82,7 +82,7 @@ In real life, people make mistakes using the app, so if everything reacts to the
 Don't make things interactive if there is no value in adding interactivity. 
 Adding interactivity widgets (in most cases) means adding visual elements to your original content: in other words, you're adding visual components that might distract the user from focusing on the content of the information.
 
-Good rule: don't add feature for the sake of adding a feature. 
+Good rule: don't add a feature for the sake of adding a feature. 
 Less is more.
 
 Example: using `DT::data.table()` or `plotly` or `dygraph` when it's not needed. 
@@ -92,12 +92,12 @@ Maybe a parallel with 90/00 website design with a lot of visual noise vs minimal
 
 ## About Accessibility 
 
-A user interface needs to be "ready to be consumed" by the broader audience possible. 
+A user interface needs to be "ready to be consumed" by the broadest audience possible. 
 That means people with visual, mobility, or cognitive disabilities. 
 
-Web Accessibility is pretty standard concept in the web development world, and you can learn about this straight from the first chapter of [learn.freecodecamp.org](https://learn.freecodecamp.org/). 
+Web Accessibility is a pretty standard concept in the web development world, and you can learn about this straight from the first chapter of [learn.freecodecamp.org](https://learn.freecodecamp.org/). 
 -> Screen to speech technology : html semantic tags
--> Mobility impairment, people w/ parkinson for example. Exemple of the text input & ENTER button. Making things keyboard friendly. 
+-> Mobility impairment, people w/ Parkinson for example. Exemple of the text input & ENTER button. Making things keyboard friendly. 
 -> ColorBlind, viridis
 
 ## Further reading 
